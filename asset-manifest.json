@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/newsfeed/static/css/main.9071bff3.css",
-    "main.js": "/newsfeed/static/js/main.915ee46a.js",
+    "main.css": "/newsfeed/static/css/main.e6c13ad2.css",
+    "main.js": "/newsfeed/static/js/main.91f293a6.js",
     "static/js/787.e81b8ef6.chunk.js": "/newsfeed/static/js/787.e81b8ef6.chunk.js",
+    "static/media/4032343-screenshot2022-09-07at3.02.36pm.png": "/newsfeed/static/media/4032343-screenshot2022-09-07at3.02.36pm.046762131ae6c2ebee8d.png",
+    "static/media/4036023-cropwarzone-mobile---jump-keyart.jpg": "/newsfeed/static/media/4036023-cropwarzone-mobile---jump-keyart.7067a81877f2165a61ea.jpg",
+    "static/media/4036291-gsstratbundle3.png": "/newsfeed/static/media/4036291-gsstratbundle3.0c2d0cd4e3dd13acc1c8.png",
+    "static/media/logos.png": "/newsfeed/static/media/logos.303958b9484ab4ce31ec.png",
     "static/media/4029176-ps-plus-sep-logo-promo1-2-thumb-1.jpg": "/newsfeed/static/media/4029176-ps-plus-sep-logo-promo1-2-thumb-1.d787f76f0a08f0a7ab38.jpg",
     "static/media/4028692-xbox-games-gold-sept-promo1-2-thumb-1.jpg": "/newsfeed/static/media/4028692-xbox-games-gold-sept-promo1-2-thumb-1.003edc980cb7ff5a1e3d.jpg",
     "index.html": "/newsfeed/index.html",
-    "static/media/Logo_1.svg": "/newsfeed/static/media/Logo_1.0040c4bc69e3b45cca77f05452296bf7.svg",
-    "main.9071bff3.css.map": "/newsfeed/static/css/main.9071bff3.css.map",
-    "main.915ee46a.js.map": "/newsfeed/static/js/main.915ee46a.js.map",
+    "main.e6c13ad2.css.map": "/newsfeed/static/css/main.e6c13ad2.css.map",
+    "main.91f293a6.js.map": "/newsfeed/static/js/main.91f293a6.js.map",
     "787.e81b8ef6.chunk.js.map": "/newsfeed/static/js/787.e81b8ef6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9071bff3.css",
-    "static/js/main.915ee46a.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.91f293a6.js"
   ]
 }
