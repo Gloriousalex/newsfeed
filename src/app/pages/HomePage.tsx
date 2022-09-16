@@ -12,10 +12,12 @@ export const HomePage = () => {
 
   return (
     <StyledComponent.HomePageWrapper>
-      {currentUser?.isAdmin ? (<ButtonWrapper>
-        <StyledLink to="/add_news"><StyledButton variant="outlined"> Add new news</StyledButton></StyledLink>
-        </ButtonWrapper>
+      <ButtonWrapper>
+      <TitleNews>Trending News</TitleNews>
+      {currentUser?.isAdmin ? (
+        <StyledLink to="/add_news"><StyledButton variant="outlined"> Add new news</StyledButton></StyledLink>       
       ) : (<></>) }
+      </ButtonWrapper>
       <BigNews/>
     </StyledComponent.HomePageWrapper>
   )
@@ -30,10 +32,18 @@ const StyledButton = styled(Button)` &&{
 
 const ButtonWrapper = styled.div`
   display: flex;
-  align-content: center;
+  text-align: center;
 `
 
 const StyledLink = styled(Link)` &&{
-  margin: auto;
+  position: relative;
+  right: 10%;
 }
+`
+
+const TitleNews = styled.h1`
+  position: relative;
+  margin-top: 0px;
+  left: 40%;
+  top: 10px;
 `

@@ -73,4 +73,5 @@ const ButtonWrapper = styled.div`
   width: auto;
   position: relative;
   left: 30px;
+  padding-bottom: 10px;
 `

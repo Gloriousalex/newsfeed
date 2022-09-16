@@ -37,7 +37,6 @@ const App = () => {
 }
 
 export default App;
-
 const MainWrapper = styled.div`
   min-height: calc(100vh - (50px + 100px));
   background-color: #f1f1f1

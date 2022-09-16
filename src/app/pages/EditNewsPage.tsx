@@ -87,11 +87,11 @@ export const EditNewsPage = () => {
           />
           <TextField
           id="imageURL"
-          label="Image"
+          label="Image url"
           maxRows={2}
           defaultValue={filteredNews?.imageURL}
           name="imageurl"
-          helperText="edit image of news"
+          helperText="edit image url of news"
           variant="standard"
           fullWidth
           multiline
