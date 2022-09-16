@@ -39,14 +39,24 @@ export default function SignUp() {
   };
 
   return (
-    <Container component="main" maxWidth="xs">
+    <Container component="main" maxWidth="xs" sx={{
+      backgroundColor: 'white', 
+      position: 'relative', 
+      top: 30, 
+      boxShadow: '3px 3px 16px 0px #b3b2b2', 
+      borderRadius: 2, 
+      py: 1
+      }}
+    >
       <CssBaseline />
       <Box
-        sx={{
+        sx={{                    
+          top: 20,
           marginTop: 8,
+          my: 0,
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'center',
+          alignItems: 'center'
         }}
       >
         <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>

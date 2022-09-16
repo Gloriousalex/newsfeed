@@ -46,7 +46,7 @@ export const newslist = [
     editedBy: 'Alex Sytnik'
   },
   {
-    title: `PlayStation Plus Free Games For September 2022 Revealed`,
+    title: `PlayStation Plus Free Games For September 2022 Revealed2`,
     imageURL: require('../img/4029176-ps-plus-sep-logo-promo1-2-thumb-1.jpg'),
     fullNews: ["Following a leak, PlayStation has confirmed the next batch of PlayStation Plus freebies.",
     "September 2022's PS Plus Essential lineup will include Need for Speed Heat, Toem, and Granblue Fantasy: Versus. All three of those games are worth playing, so it'll be a pretty good month overall for freebies on PlayStation.",
@@ -56,14 +56,14 @@ export const newslist = [
     "Toem is a charming indie that released just last year. You play as a young photographer in search of a snapshot of the eponymous Toem phenomenon. If you're looking for a relaxing game that won't take up too much time, Toem is a good choice. The gameplay revolves around solving puzzles by taking photographs of the world around you. The black-and-white visuals are lovely, and the gameplay is complemented by a beautiful soundtrack. Only the PS5 version of Toem will be available to claim in September.",
     "Fighting game fans can check out Granblue Fantasy: Versus, a 2.5D fighting game developed by Arc System Works. Featuring the characters that first appeared in the Granblue Fantasy mobile game in 2014, Versus is a stylish fighter with great mechanics. It also implements RPG systems, which is fitting considering the first Granblue Fantasy game was an RPG. The single-player campaign isn't very exciting, but the core fighting mechanics are great. It earned a 7/10 in our Granblue Fantasy: Versus review.If you haven't already, make sure to claim August's freebies before they leave PlayStation Plus on September 6.", 
     "August's lineup includes Yakuza: Like a Dragon, Tony Hawk's Pro Skater 1 + 2, and Little Nightmares.PlayStation is also adding new games to the PS Plus Extra/Premium library next month, including Deathloop, Chicory: A Colorful Tale, and Assassin's Creed Origins."],
-    isBigNews: true,
+    isBigNews: false,
     id: '4',
     dateOfWriting: 'Thursday, September 1, 2022 at 11:37 AM',
     tag: 'console',
     editedBy: 'Vasya Pupkin'
   },
   {
-    title: 'Xbox Games With Gold Free Games For September 2022 Revealed',
+    title: 'Xbox Games With Gold Free Games For September 2022 Revealed2',
     imageURL: require('../img/4028692-xbox-games-gold-sept-promo1-2-thumb-1.jpg'),
     fullNews: ["We're at the start of another new month, so that means that it's time to claim some freebies on Xbox Store--if you're a Game Pass Ultimate or Xbox Live Gold subscriber, of course. September's Games with Gold lineup currently features Gods Will Fall and Thrillville.", 
     "You can also still claim one of August's freebies, ScourgeBringer, until September 16. Halfway through the month the lineup will refresh with Double Kick Heroes and Portal 2.",  
@@ -72,9 +72,9 @@ export const newslist = [
     "Portal 2 will be free in the back half of September.",
     "Prior to Portal 2 landing on the service, you can add Thrillville to your Xbox library. Thrillville is an amusement park management sim that originally released in 2006. If you've ver played Rollercoaster Tycoon, Thrillville isn't all that different, but it does have an actual narrative. Along with managing the park's day-to-day activities, you have to complete missions to move on. There are five parks in total to oversee. Thrillville also has a bunch of mini-games that can be played solo or with friends. You can grab Thrillville until September 15.We started with the backwards-compatible classics because they are just a bit more exciting than the Xbox One games for September.", 
     "All month long subscribers will be able to claim Gods Will Fall, an action game that released last year. You play as a Celtic warrior in a fight against a numerous gods that control the world. Gods Will Fall does offer an interesting spin on the roguelike genre and features challenging combat, so it's worth checking out if you like those sorts of action games."],
-    isBigNews: true,
+    isBigNews: false,
     id: '5',
-    dateOfWriting: 'Thursday, September 1, 2022 at 11:37 AM',
+    dateOfWriting: 'Thursday, September 1, 2022 at 11:35 AM',
     tag: 'console',
     editedBy: 'George Orwell'
   },
@@ -89,7 +89,7 @@ export const newslist = [
     id: '6',
     dateOfWriting: 'Thursday, September 1, 2022 at 11:37 AM',
     tag: 'PC',
-    editedBy: 'Alex Sytnik'
+    editedBy: 'George Orwell'
   },
   {
     title: 'The Next-Gen Witcher 3 Release Is Still On Track For This Year',
@@ -102,7 +102,7 @@ export const newslist = [
       " GameSpot gave the original game an 8/10 in its The Division review. In its The Division 2 review, GameSpot gave the sequel a 9/10."],
     isBigNews: false,
     id: '7',
-    dateOfWriting: 'Thursday, September 1, 2022 at 11:37 AM',
+    dateOfWriting: 'Thursday, September 1, 2022 at 11:39 AM',
     tag: 'PC',
     editedBy: 'Alex Sytnik'
   },
@@ -120,5 +120,51 @@ export const newslist = [
     dateOfWriting: 'Thursday, September 1, 2022 at 11:37 AM',
     tag: 'PC',
     editedBy: 'Alex Sytnik'
-  }
+  },
+  {
+    title: 'GeCall Of Duty: Warzone Mobile Is A Separate Game, Not A Port',
+    imageURL: require('../img/4036023-cropwarzone-mobile---jump-keyart.jpg'),
+    fullNews: ["Call of Duty: Warzone Mobile (formerly known as Project Aurora) received its proper, finalized title during GameSpot's recent Swipe mobile showcase, but today, during Activision's Call of Duty Next event, the game was fully unveiled. Activision is hoping to offer a genuine Warzone experience with 120 online players, a huge map, vehicles, and mechanics like the Gulag, all on iOS and Android devices.",
+      "You can see the game's trailer below, but we also had a chance to speak with Activision's VP of mobile, Chris Plummer, about its plans for Warzone Mobile and clarify exactly how cross-progression will work between Warzone and Warzone Mobile, what will happen to the battle royale mode currently available in Call of Duty Mobile, and whether this is considered a port, or a separate game.",
+      " Are you ready to share when Call of Duty: Warzone Mobile is releasing?.",
+      "Chris Plummer: We'll be out next year. We haven't released a fixed release date, so more on that over time. But right now we're revealing the gameplay for the first time. People have hands on it and are checking it out during the live stream event. And then over time we'll see more of the experience and next year we'll be out there for everybody.",
+      "Is Warzone Mobile considered a port of Call of Duty: Warzone?",
+      "No, it is not a port. We have shared technology. We have a lot of advantages, but we're making a mobile-first experience. Our priority is to make the best possible experience for mobile players, regardless of which platform you typically play on. There are plenty of players that mobile is their first and primary platform. There are other folks who are going to come over because they play Warzone on another platform and might want to get an extra match in and we want to make sure that the game works for everybody."
+    ],
+    isBigNews: true,
+    id: '9',
+    dateOfWriting: 'Thursday, September 1, 2022 at 08:37 AM',
+    tag: 'mobile',
+    editedBy: 'Alex Sytnik'
+  },
+  {
+    title: 'Project Aurora Is Now Call Of Duty Warzone Mobile',
+    imageURL: require('../img/4032343-screenshot2022-09-07at3.02.36pm.png'),
+    fullNews: ["Call of Duty: WarzoDuring GameSpot's new mobile show, Swipe, Activision shared the first teaser trailer and finalized name for Call of Duty's new Warzone mobile game and revealed what's next for Call of Duty Mobile.",
+      "Call of Duty Warzone Mobile is the official name of the game formerly known as Project Aurora. It's a new game from four Activision studios working together on the project, Solid State Studios, Beenox, Activision Shanghai, and Digital Legends, and today Activision is announcing the official title and revealing the first brief teaser.",
+      "Call of Duty Warzone Mobile will be, as its name suggests, a mobile version of Call of Duty Warzone. The existing Call of Duty Mobile already has a battle royale element, in addition to standard multiplayer, but Call of Duty Warzone Mobile is exclusively a battle royale game.",
+      "As for Call of Duty: Mobile, the game's new Season 8: Train to Nowhere update arrived on September 7 with a new map, Express, another battle pass, and much more. For more, check out this roundup of everything new in Season 8: Train to Nowhere.",
+      "In addition to Call of Duty Warzone Mobile, Activision is developing Warzone 2.0 for console. Activision will share more details on the title during the big Call of Duty Next event on September 15."      
+    ],
+    isBigNews: true,
+    id: '10',
+    dateOfWriting: 'Thursday, August 1, 2022 at 01:37 AM',
+    tag: 'mobile',
+    editedBy: 'Alex Sytnik'
+  },
+  {
+    title: 'Like A Dragon: Ishin Was Considered To Be An Impossible Port For Years By RGG',
+    imageURL: require('../img/4035950-ishin.jpg'),
+    fullNews: ["For many years, Like a Dragon: Ishin has been the one Yakuza game that western fans have been unable to get their hands on unless they were willing to import a copy or learn another language so that they could navigate the PlayStation storefront of Japan. A Japan-exclusive released on PS3 and PS4 in 2013, Like a Dragon: Ishin finally makes its way to the West next year and is being rebuilt entirely in Unreal Engine 4.",
+      "Set in 1860s Kyo--a fictionalized version of Kyoto--Ishin's focus on the fall of the Samurai during a turbulent part of Japan's history was originally considered to be 'impossible' to localize by Ryu Ga Gotoku Studio head Masayoshi Yokoyama. According to Yokoyama, this was largely due to anachronistic challenges..",
+      "When we were first working on Ishin, we thought this game was impossible to localize, Yokoyama explained. 'There was no way that the overseas team and the Asian team would be able to localize it. I don't think half the people would really understand what's going on. It's hard for Japanese people to understand, it's probably even harder for people overseas.'",
+      "According to Yokoyama, concepts, philosophies, and unique language quirks of that historical time period proved to be extremely challenging for the localization teams, but the staff rose to the occasion for the Ishin remake. Several historical words and terms used in Ishin have lost their context in the modern Japanese language, but the game will have a special system in place that will explain their meaning to western audiences.",
+      "RGG Studio bills the next mainline adventure as 'the largest [Yakuza] game to date' and will release it on PC, PS5, PS4, Xbox Series X, and Xbox One. Just don't expect a Switch port of any Yakuza game anytime soon, due to the series being 'too underground' for that family-friendly system according to Yokohama."      
+    ],
+    isBigNews: false,
+    id: '11',
+    dateOfWriting: 'Thursday, August 1, 2022 at 01:37 AM',
+    tag: 'PC',
+    editedBy: 'Alex Sytnik'
+  },
 ]

@@ -1,7 +1,7 @@
-import { useSelector } from "react-redux";
-import styled from "styled-components"
-import { getUser } from "../components/reducer/userreducer";
-import { StyledComponent } from "../components/styles"
+import { useSelector }        from "react-redux";
+import styled                 from "styled-components"
+import { getUser }            from "../components/reducer/userreducer";
+import { StyledComponent }    from "../components/styles"
 
 export const AboutUserPage = () => {
   const listOfUsers                     = useSelector(getUser);
@@ -10,23 +10,39 @@ export const AboutUserPage = () => {
   return (
     <StyledComponent.HomePageWrapper>
       <UserInfoWrapper>
-      <StyledUserText>User Name:              <strong>{currentUser?.userName}</strong></StyledUserText>
-      <StyledUserText>User Surname:           <strong>{currentUser?.userSurname}</strong></StyledUserText>
-      <StyledUserText>User Login:             <strong>{currentUser?.login}</strong></StyledUserText>
-      <StyledUserText>Date of registration:   <strong>{currentUser?.registrationDate}</strong></StyledUserText>
-      <StyledUserText>User status:            <strong>{currentUser?.isAdmin? 'admin' : 'user'}</strong></StyledUserText>
+      <StyledUserText>
+        <p>User Name:</p><strong>{currentUser?.userName}</strong>
+      </StyledUserText>
+      <StyledUserText>
+        <p>User Surname:</p><strong>{currentUser?.userSurname}</strong>
+      </StyledUserText>
+      <StyledUserText>
+        <p>User Login:</p><strong>{currentUser?.login}</strong>
+      </StyledUserText>
+      <StyledUserText>
+        <p>Date of registration:</p><strong>{currentUser?.registrationDate}</strong>
+      </StyledUserText>
+      <StyledUserText>
+        <p>User status:</p><strong>{currentUser?.isAdmin? 'admin' : 'user'}</strong>
+      </StyledUserText>
       </UserInfoWrapper>
     </StyledComponent.HomePageWrapper>
   )
 }
 
 const StyledUserText = styled.p`
-margin-top: 0px;
+display      : flex;
+margin-top   : 0px;
 margin-bottom: 10px;
-font-size: 20px;
+font-size    : 20px;
+p {
+  width     : 200px;
+  margin    : 0%;
+  font-style: italic;
+}
 `
 const UserInfoWrapper = styled.div`
 position: relative;
-top: 20px;
-left: 30px;
+top     : 20px;
+left    : 30px;
 `
