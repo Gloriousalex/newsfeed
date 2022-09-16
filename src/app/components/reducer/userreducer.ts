@@ -1,11 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit';
-
-import { RootState } from '../../store';
-import { userlist } from '../Lists/userlist';
+import { RootState }   from '../../store';
+import { userlist }    from '../Lists/userlist';
 
 const userSlicer = createSlice({
-  name: 'user',
-  initialState: userlist,
+  name         : 'user',
+  initialState : userlist,
   reducers: {
    loginUser (state, action) {
     return [

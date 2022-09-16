@@ -1,29 +1,17 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { newslist } from '../Lists/newslist';
+import { createSlice }  from '@reduxjs/toolkit';
+import { newslist }     from '../Lists/newslist';
 import { v4 as uuidv4 } from 'uuid';
-import { RootState } from '../../store';
-
-
-// interface Inews {
-//   title: string,
-//   imageURL: any,
-//   fullNews: array,
-//   isBigNews: boolean,
-//   id: string,
-//   dateOfWriting: Date,
-//   tag: string
-// }
+import { RootState }    from '../../store';
 
 const newsSlicer = createSlice({
-  name: 'news',
-  initialState: newslist,
+  name         : 'news',
+  initialState : newslist,
   reducers: {
     editNews(state, action) {
       return [...state.map(news => {
         if (news.id === action.payload.id) {
           return action.payload;
         }
-
         return news;
       })];
   },

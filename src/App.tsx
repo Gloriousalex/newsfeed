@@ -1,5 +1,3 @@
-import React                  from 'react';
-import './App.css';
 import { Footer }             from './app/components/Footer/Footer';
 import { Header }             from './app/components/Header/Header';
 import { HomePage }           from './app/pages/HomePage';
@@ -10,9 +8,9 @@ import { NotFoundPage }       from './app/pages/NotFoundPage';
 import { SinglePage }         from './app/pages/SinglePage';
 import { EditNewsPage }       from './app/pages/EditNewsPage';
 import RegistrationPage       from './app/pages/RegistrationPage';
-import { CreateNewsPage }     from './app/pages/CreateNewsPage';
 import { FilteredNews }       from './app/pages/FilteredNews';
 import styled                 from 'styled-components';
+import { AboutUserPage }      from './app/pages/AboutUserPage';
 
 const App = () => {
   return (
@@ -25,9 +23,10 @@ const App = () => {
       <Route path = '/login' element         = {<LoginPage/>}/>
       <Route path = 'news/sort/:tag' element = {<FilteredNews/>}/>
       <Route path = '/news/:id' element      = {<SinglePage/>}/>
+      <Route path = '/user/:user' element    = {<AboutUserPage/>}/>
       <Route path = '/sign-up' element       = {<RegistrationPage/>}/>
       <Route path = '/news/:id/edit' element = {<EditNewsPage/>}/>
-      <Route path = '/add_news' element      = {<CreateNewsPage/>}/>
+      <Route path = '/add_news' element      = {<EditNewsPage/>}/>
       <Route path = '*' element              = {<NotFoundPage/>}/>
     </Routes>
     </MainWrapper>

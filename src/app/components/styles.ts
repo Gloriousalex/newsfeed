@@ -124,7 +124,8 @@ min-height: 80%;
 const NewsTitle = styled.p`
 font-size: 1.5em;
 font-weight: 600;
-text-align: center;
+text-align: left;
+margin-left: 40px;
 `
 const NewsText = styled.p`
 font-size: 1em;

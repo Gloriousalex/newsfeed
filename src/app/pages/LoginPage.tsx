@@ -1,22 +1,20 @@
-import { CssVarsProvider } from '@mui/joy/styles';
-import Sheet from '@mui/joy/Sheet';
-import Typography from '@mui/joy/Typography';
-import TextField from '@mui/joy/TextField';
-import Button from '@mui/joy/Button';
-
-import { getUser, loginUser } from '../components/reducer/userreducer';
-import { useDispatch, useSelector } from "react-redux"
-import { useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { CssVarsProvider }           from '@mui/joy/styles';
+import Sheet                         from '@mui/joy/Sheet';
+import Typography                    from '@mui/joy/Typography';
+import TextField                     from '@mui/joy/TextField';
+import Button                        from '@mui/joy/Button';
+import { getUser, loginUser }        from '../components/reducer/userreducer';
+import { useDispatch, useSelector }  from "react-redux"
+import { useState }                  from 'react';
+import { Link, useNavigate }         from 'react-router-dom';
 
 
 export const LoginPage = () =>{
-  const listOfUsers = useSelector(getUser);
-  const dispatch = useDispatch();
-  const location = useLocation();
-  const navigate = useNavigate();
+  const listOfUsers                         = useSelector(getUser);
+  const dispatch                            = useDispatch();
+  const navigate                            = useNavigate();
   const [loginUserError, setLoginUserError] = useState('')
-  console.log(location);
+
   const handleUser = (event: any) => {
     event.preventDefault();
     const form = event.target;
@@ -38,8 +36,7 @@ export const LoginPage = () =>{
     } 
     } else {
       setLoginUserError("User doesn't exist")
-  }
-    console.log(listOfUsers);
+    }
   }
   
   return (
@@ -69,11 +66,9 @@ export const LoginPage = () =>{
         <form onSubmit={handleUser}>
           
         <TextField
-    // html input attribute
           name="login"
           type="text"
           placeholder="your username"
-          // pass down to FormLabel as children
           label="Login"
           required
         />
@@ -87,7 +82,7 @@ export const LoginPage = () =>{
         <Button
           type="submit"
           sx={{
-            mt: 1, // margin top
+            mt: 1,
           }}
           >
           Log in
@@ -99,10 +94,8 @@ export const LoginPage = () =>{
           sx={{ alignSelf: 'center' }}
         >
           Don't have an account?
-        </Typography>
-        
+        </Typography>        
        </Sheet>
     </CssVarsProvider>
-
   )
 }
